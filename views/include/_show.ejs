@@ -1,10 +1,11 @@
+<% for (let i = 0; i < users.length; i++) { %>
 <tr>
-  <td>id</td>
-  <td>titl</td>
-  <td>des</td>
-  <td>price</td>
-  <td>rat</td>
-  <td>img</td>
+  <td><%= i+1%></td>
+  <td><%= users[i].title%></td>
+  <td><%= users[i].description%></td>
+  <td><%= users[i].price%></td>
+  <td><%= users[i].rating%></td>
+  <td><%= users[i].image%></td>
   <td>
     <a href="/update-user" class="btn border-shadow update">
       <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
@@ -14,3 +15,4 @@
     </a>
   </td>
 </tr>
+<% } %>
