@@ -1,11 +1,11 @@
-<% for (let i = 0; i < users.length; i++) { %>
+<% for (let i = 0; i < users.length; i++) { %> <% let star = '⭐' %>
 <tr>
   <td><%= i+1%></td>
   <td><%= users[i].title%></td>
   <td><%= users[i].description%></td>
   <td><%= users[i].price%></td>
-  <td><%= users[i].rating%></td>
-  <td><%= users[i].image%></td>
+  <td><%= star%></td>
+  <td id="test-img"><img src="<%= users[i].image%>" /></td>
   <td>
     <a href="/update-user" class="btn border-shadow update">
       <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>

@@ -19,7 +19,7 @@ a {
 }
 
 .container {
-  max-width: 1024px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -214,4 +214,13 @@ table {
 #add_user .form-group .btn:hover {
   background-color: var(--dark);
   color: var(--border);
+}
+
+#test-img {
+  width: 100px;
+  height: 100px;
+}
+
+.table tbody tr td img {
+  width: 100px;
 }
