@@ -1,42 +1,42 @@
-<form method="POST" id="add_user">
+<form method="POST" id="add_user" action="/api/users">
   <div class="new_user">
     <div class="form-group">
-      <label for="name" class="text-light">Title</label>
+      <label for="title" class="text-light">Title</label>
       <input type="hidden" name="id" value="" />
       <input
         type="text"
-        name="name"
+        name="title"
         value=""
         placeholder="Enter Product Title"
       />
     </div>
     <div class="form-group">
-      <label for="Email" class="text-light">Description</label>
+      <label for="description" class="text-light">Description</label>
       <input
         type="text"
-        name="email"
+        name="description"
         value=""
         placeholder="Enter product Description"
       />
     </div>
     <div class="form-group">
-      <label for="Email" class="text-light">Price</label>
-      <input type="text" name="email" value="" placeholder="Enter Price" />
+      <label for="price" class="text-light">Price</label>
+      <input type="text" name="price" value="" placeholder="Enter Price" />
     </div>
 
     <div class="form-group">
-      <label for="Email" class="text-light">Rating</label>
+      <label for="rating" class="text-light">Rating</label>
       <input
         type="text"
-        name="email"
+        name="rating"
         value=""
         placeholder="Enter product rating"
       />
     </div>
 
     <div class="form-group">
-      <label for="Email" class="text-light">Image</label>
-      <input type="text" name="email" value="" placeholder="Enter Image URL" />
+      <label for="image" class="text-light">Image</label>
+      <input type="text" name="image" value="" placeholder="Enter Image URL" />
     </div>
 
     <div class="form-group">
